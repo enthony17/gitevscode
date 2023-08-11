@@ -10,11 +10,11 @@ h1{
 font-size: small;
 font-style: normal;
 font-family: Arial, Helvetica, sans-serif;    
-justify-content: center;
+text-align: center;
 }
 
 div{
 
+justify-content: center;
 
-    
 }
