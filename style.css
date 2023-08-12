@@ -19,8 +19,8 @@ text-align: center;
         }
 
           .image {
-            border: 2px solid #000; /* Largura e cor da borda */
-              border-radius: 8px; /* Raio do canto da borda (opcional) */
+            border: 2px solid white /* Largura e cor da borda */
+            border radius: 8px; /* Raio do canto da borda (opcional) */
               flex: 2; /* Distribui o espaço igualmente entre as imagens */
                   margin: 25px; /* Adiciona um espaço entre as imagens */
                     }
