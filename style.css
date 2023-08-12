@@ -17,7 +17,7 @@ text-align: center;
   .image-container {
       display: flex; /* Define o container como um flex container */
       border: 5px solid white; /* Largura e cor da borda */
-        border-radius: 100px; /* Raio do canto da borda (opcional) */
+        border-radius: 1px; /* Raio do canto da borda (opcional) */
         }
 
           .image {
