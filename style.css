@@ -19,6 +19,6 @@ text-align: center;
         }
 
           .image {
-              flex: 1; /* Distribui o espaço igualmente entre as imagens */
-                  margin: 5px; /* Adiciona um espaço entre as imagens */
+              flex: 2; /* Distribui o espaço igualmente entre as imagens */
+                  margin: 25px; /* Adiciona um espaço entre as imagens */
                     }
