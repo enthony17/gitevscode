@@ -16,12 +16,12 @@ text-align: center;
 
   .image-container {
       display: flex; /* Define o container como um flex container */
-      border: 10px solid red; /* Largura e cor da borda */
-        border-radius: 8px; /* Raio do canto da borda (opcional) */
+      border: 8px solid red; /* Largura e cor da borda */
+        border-radius: 15px; /* Raio do canto da borda (opcional) */
         }
 
           .image {
             
               flex: 2; /* Distribui o espaço igualmente entre as imagens */
-                  margin: 25px; /* Adiciona um espaço entre as imagens */
+                  margin: 100px; /* Adiciona um espaço entre as imagens */
                     }
