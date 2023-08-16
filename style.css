@@ -20,7 +20,7 @@ text-align: center;
     flex-direction: row;
       display: flex; /* Define o container como um flex container */
       border: 5px solid white; /* Largura e cor da borda */
-        border-radius: 6,75px; /* Raio do canto da borda (opcional) */
+        border-radius: 7px; /* Raio do canto da borda (opcional) */
         }
 
           .image {
