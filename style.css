@@ -1,30 +1,37 @@
-*{ 
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    
+/* Estilos Globais */
+* { 
+    background-color: rgb(0, 0, 0); /* Cor de fundo preta para todo o site */
+    color: aliceblue; /* Cor do texto azul claro */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimento nas dimensões dos elementos */
 }
 
-
-
-h1{
-font-size: 300%;
-font-style: normal;
-font-family: Arial, Helvetica, sans-serif;    
-text-align: center;
-
+/* Estilo para o Cabeçalho */
+h1 {
+    font-size: 300%; /* Tamanho da fonte do cabeçalho */
+    font-style: normal; /* Garante que o texto não seja itálico */
+    font-family: Arial, Helvetica, sans-serif; /* Família de fontes */
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 20px 0; /* Adiciona margem acima e abaixo do cabeçalho */
 }
 
-  .image-container {
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-      display: flex; /* Define o container como um flex container */
-      border: 5px solid white; /* Largura e cor da borda */
-        border-radius: 7px; /* Raio do canto da borda (opcional) */
-        }
+/* Estilo para o Container de Imagens */
+.image-container {
+    display: flex; /* Define o container como um flex container */
+    justify-content: center; /* Alinha as imagens horizontalmente ao centro */
+    align-items: center; /* Alinha as imagens verticalmente ao centro */
+    flex-direction: row; /* Organiza as imagens em uma linha horizontal */
+    border: 5px solid white; /* Borda sólida branca */
+    border-radius: 7px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno para evitar que as imagens toquem a borda */
+    flex-wrap: wrap; /* Permite que as imagens se movam para a linha seguinte se necessário */
+}
 
-          .image {
-            
-              flex: 15; /* Distribui o espaço igualmente entre as imagens */
-                  margin: 100px; /* Adiciona um espaço entre as imagens */
-                    }
+/* Estilo para as Imagens */
+.image {
+    flex: 1; /* As imagens vão se ajustar para ocupar o espaço disponível */
+    margin: 20px; /* Espaçamento ao redor das imagens */
+    max-width: 100%; /* Garante que as imagens não ultrapassem o container */
+    height: auto; /* Mantém a proporção das imagens */
+}
